@@ -24,13 +24,10 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             JCMyLoginTheme {
-                // A surface container using the 'background' color from the theme
 
-                // OJO !!!! HABILITAR INTERNET EN EL MANIFEST !!!!!!!!!!!!!!!
-
+        
                 Surface(
                     modifier = Modifier.fillMaxSize().padding(top = 46.dp),
-                    //modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
                     Column(
